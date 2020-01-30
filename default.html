@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="robots" content="noindex">
+	<title>SysAdminas</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/629874847c.js" crossorigin="anonymous"></script>
+	<style>
+		html,
+		body {
+			font-family: 'Montserrat', sans-serif;
+			height: 100%;
+			background-color: #000000;
+			padding: 0;
+			margin: 0;
+		}
+
+		.typewriter {
+			display: inline-block;
+		}
+
+		.typewriter h1 {
+			color: white;
+			overflow: hidden;
+			/* Ensures the content is not revealed until the animation */
+			border-right: .15em solid #ff66c4;
+			/* The typwriter cursor */
+			white-space: nowrap;
+			/* Keeps the content on a single line */
+			margin: 0 auto;
+			/* Gives that scrolling effect as the typing happens */
+			letter-spacing: .15em;
+			/* Adjust as needed */
+			animation:
+				typing 3.5s steps(40, end),
+				blink-caret .75s step-end infinite;
+		}
+
+		/* The typing effect */
+		@keyframes typing {
+			from {
+				width: 0
+			}
+
+			to {
+				width: 100%
+			}
+		}
+
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+
+			from,
+			to {
+				border-color: transparent
+			}
+
+			50% {
+				border-color: #ff66c4;
+			}
+		}
+
+		.arrow-icon-logo {
+			width: 25px;
+			display: block;
+			float: left;
+			margin-right: 7px;
+		}
+
+		.social-media-icon {
+			width: 40px;
+			display: block;
+			float: left;
+			margin-right: 15px;			
+		}
+
+		.logo-container {
+			left: 50%;
+			margin-top: -200px;
+			margin-left: -200px;
+			position: absolute;
+			top: 50%;
+			width: 400px;
+		}
+
+		.logo-font {
+			color: #ff66c4;
+			display: inline-block;
+			font-size: 2em;
+			margin-right: 5px;
+		}
+
+		.content-1 {
+			width: 100%;
+			height: 50%;
+			color: white;
+		}
+
+		.content-2 {
+			width: 100%;
+			height: 50%;
+			/* color: white; */
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="content-1">
+		<div class="logo-container animated fadeIn">
+			<img src="./icons/chevron-right-solid.svg" class="arrow-icon-logo" />
+			<span class="logo-font"> SysAdminas</span>
+			<div class="typewriter">
+				<h1>systems administration like a girl</h1>
+			</div>
+			<div style="margin-top: 45px;">
+				<a href="mailto:contato@sysadminas.com.br?subject=Oi%20SysAdminas" target="_top"><img src="./icons/envelope-solid.svg" class="social-media-icon" /></a>
+				<a href="https://t.me/sysadminas" target="_blank"><img src="./icons/telegram_icon.svg" style="border-radius: 5px;" class="social-media-icon" /></a>
+				<a href="https://dev.to/sysadminas" target="_blank"><img src="./icons/dev-brands.svg" class="social-media-icon" /></a>
+				<a href="https://medium.com/sysadminas" target="_blank"><img src="./icons/medium-brands.svg" style="border-radius: 8px;" class="social-media-icon" /></a>
+				<a href="https://github.com/sysadminas" target="_blank"><img src="./icons/github-square-brands.svg" class="social-media-icon" /></a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
