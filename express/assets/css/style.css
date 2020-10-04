@@ -376,6 +376,10 @@ ul.timeline > li:before {
 	font-size: 18px;
   }
   
+  #team .member p {
+	padding:10px 5px;
+  }
+
   #team .member span {
 	font-style: italic;
 	display: block;
