@@ -288,7 +288,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #initiatives {
-    background: #e8ebef;
+    background: #E9ECF0;
     padding: 80px 0;
 }
 
@@ -301,7 +301,7 @@ ul.timeline>li:before {
 
 .initiatives-carousel-img {
     width: 300px;
-    display: block;
+    display: inline-block !important;
 }
 
 
@@ -329,7 +329,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #award {
-    background: #6D6E70;
+    background: #F5F8FC;
     padding: 80px 0;
 }
 
@@ -351,7 +351,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #team {
-    background: #F5F8FC;
+    background: #E9ECF0;
     padding: 80px 0;
 }
 
