@@ -1,5 +1,4 @@
 body {
-
   background: #000;
   height: 100%;
 }
@@ -24,41 +23,13 @@ a {
 
 a:hover {
   color: #ff66c4;
-
-    background: #000;
-    height: 100%;
 }
-
-.custom-bold {
-    font-weight: 700;
-}
-
-.title {
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.navbar-color {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-a {
-    color: #ff66c4;
-    font-weight: 700;
-}
-
-a:hover {
-    color: #ff66c4;
-
-}
-
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 
 #hero {
-
   width: 100%;
   height: 100vh;
   background: url(../img/site-img/hero-bg.jpg) top center;
@@ -123,93 +94,6 @@ a:hover {
     line-height: 24px;
     margin-bottom: 30px;
   }
-
-    width: 100%;
-    height: 100vh;
-    background: url(../img/site-img/hero-bg.jpg) top center;
-    background-size: cover;
-    position: relative;
-}
-
-@media (min-width: 1024px) {
-    #hero {
-        background-attachment: fixed;
-    }
-}
-
-#hero:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-#hero .hero-container {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-#hero h1 {
-    margin: 30px 0 10px 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-@media (max-width: 768px) {
-    #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-}
-
-#hero h2 {
-    color: #eee;
-    margin-bottom: 50px;
-    font-size: 24px;
-}
-
-@media (max-width: 768px) {
-    #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
-    }
-}
-
-#hero .btn-get-started {
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-}
-
-#hero .btn-get-started:hover {
-    background: #ff66c4;
-    border: 2px solid #ff66c4;
-    text-decoration: none;
-
 }
 
 #hero .btn-get-started {
@@ -238,7 +122,6 @@ a:hover {
 --------------------------------------------------------------*/
 
 .typewriter {
-
   display: inline-block;
 }
 
@@ -256,27 +139,7 @@ a:hover {
   /* Adjust as needed */
   animation: typing 2.5s steps(40, end), blink-caret 0.75s step-end infinite;
   /* line-height: 32px; */
-
-    display: inline-block;
 }
-
-.typewriter h2 {
-    color: white;
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #ff66c4;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
-    /* Adjust as needed */
-    animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
-    /* line-height: 32px; */
-
-}
-
 
 /* The typing effect */
 
@@ -284,71 +147,35 @@ a:hover {
   from {
     width: 0;
   }
-
   to {
     width: 100%;
   }
 }
 
 /* The typewriter cursor effect */
+
 @keyframes blink-caret {
   from,
   to {
     border-color: transparent;
   }
-
   50% {
     border-color: #ff66c4;
   }
-
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
 }
-
-
-/* The typewriter cursor effect */
-
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: #ff66c4;
-    }
-
-}
-
 
 /* About Us Section
 --------------------------------*/
 
 #about {
-
   background: #f5f8fc;
   padding: 80px 0;
-}
-
-.new-class {
-  display: flex;
-  width: 100vw;
-}
-
-.new-class-text {
-  width: 50%;
 }
 
 #about .about-container .background {
   min-height: 300px;
   background: url(../img/site-img/about-img.jpg) center no-repeat;
   margin-bottom: 10px;
-  margin-left: 3rem;
 }
 
 #about .about-container .content {
@@ -420,87 +247,6 @@ a:hover {
 ul.timeline {
   list-style-type: none;
   position: relative;
-
-    background: #F5F8FC;
-    padding: 80px 0;
-}
-
-#about .about-container .background {
-    min-height: 300px;
-    background: url(../img/site-img/about-img.jpg) center no-repeat;
-    margin-bottom: 10px;
-}
-
-#about .about-container .content {
-    background: #F5F8FC;
-}
-
-#about .about-container .title {
-    font-weight: 700;
-    font-size: 32px;
-}
-
-@media (max-width: 768px) {
-    #about .about-container .title {
-        padding-top: 15px;
-    }
-}
-
-#about .about-container p {
-    line-height: 26px;
-}
-
-#about .about-container p:last-child {
-    margin-bottom: 0;
-}
-
-#about .about-container .icon-box {
-    background: #ff66c4;
-    background-size: cover;
-    padding: 0 0 30px 0;
-}
-
-#about .about-container .icon-box .icon {
-    float: left;
-    background: #fff;
-    width: 64px;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 50%;
-    border: 2px solid #E046A5;
-}
-
-#about .about-container .icon-box .icon i {
-    color: #E046A5;
-    font-size: 24px;
-}
-
-#about .about-container .icon-box .title {
-    margin-left: 80px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-#about .about-container .icon-box .title a {
-    color: #111;
-}
-
-#about .about-container .icon-box .description {
-    margin-left: 80px;
-    line-height: 24px;
-    font-size: 14px;
-}
-
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-
 }
 
 ul.timeline:before {
@@ -518,6 +264,7 @@ ul.timeline > li {
   margin: 20px 0;
   padding-left: 20px;
 }
+
 ul.timeline > li:before {
   content: ' ';
   background: #ff66c4;
@@ -529,34 +276,13 @@ ul.timeline > li:before {
   width: 20px;
   height: 20px;
   z-index: 400;
-
-
-ul.timeline>li {
-    margin: 20px 0;
-    padding-left: 20px;
 }
-
-ul.timeline>li:before {
-    content: ' ';
-    background: #ff66c4;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
-
-}
-
 
 /* Initiatives Section
 --------------------------------*/
 
 #initiatives {
-
-  background: #e8ebef;
+  background: #e9ecf0;
   padding: 80px 0;
 }
 
@@ -568,53 +294,22 @@ ul.timeline>li:before {
 
 .initiatives-carousel-img {
   width: 300px;
-  display: block;
-
-    background: #e8ebef;
-    padding: 80px 0;
+  display: inline-block !important;
 }
-
-.carousel-item-content {
-    height: auto;
-    padding: 30px 0px 0px 0px;
-    ;
-    outline: none;
-}
-
-.initiatives-carousel-img {
-    width: 300px;
-    display: block;
-
-}
-
 
 /* .slick-dots li.slick-active button::before { 
-	color: white !important;
+color: white !important;
 }
-
 .slick-dots li button::before {
-	color: #d4d9df !important;
+color: #d4d9df !important;
 } */
 
 @media (max-width: 768px) {
-
   .initiatives-carousel-img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
   }
-
-    .initiatives-carousel-img {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-    }
-    .carousel-item-content {
-        padding: 30px 20px 0px 0px;
-    }
-}
-
-
   .carousel-item-content {
     padding: 30px 20px 0px 0px;
   }
@@ -624,8 +319,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #award {
-
-  background: #6d6e70;
+  background: #f5f8fc;
   padding: 80px 0;
 }
 
@@ -642,31 +336,11 @@ ul.timeline>li:before {
   }
 }
 
-    background: #6D6E70;
-    padding: 80px 0;
-}
-
-.award-img {
-    width: 400px;
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .award-img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-    }
-}
-
-
-
 /* Team Section
 --------------------------------*/
 
 #team {
-
-  background: #f5f8fc;
+  background: #e9ecf0;
   padding: 80px 0;
 }
 
@@ -677,7 +351,6 @@ ul.timeline>li:before {
 }
 
 #team .member {
-/* <<<<<<< master */
   text-align: center;
   margin-bottom: 20px;
 }
@@ -696,6 +369,10 @@ ul.timeline>li:before {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
+}
+
+#team .member p {
+  padding: 10px 5px;
 }
 
 #team .member span {
@@ -720,110 +397,3 @@ ul.timeline>li:before {
   font-size: 18px;
   margin: 0 2px;
 }
-/* ======= */
-	text-align: center;
-	margin-bottom: 20px;
-  }
-  
-  #team .member .pic {
-	margin-bottom: 15px;
-	overflow: hidden;
-	height: 260px;
-  }
-  
-  #team .member .pic img {
-	max-width: 100%;
-  }
-  
-  #team .member h4 {
-	font-weight: 700;
-	margin-bottom: 2px;
-	font-size: 18px;
-  }
-  
-  #team .member p {
-	padding:10px 5px;
-  }
-
-  #team .member span {
-	font-style: italic;
-	display: block;
-	font-size: 13px;
-  }
-  
-  #team .member .social {
-	margin-top: 15px;
-  }
-  
-  #team .member .social a {
-	color: #b3b3b3;
-  }
-  
-  #team .member .social a:hover {
-	color: #ff66c4;
-  }
-  
-  #team .member .social i {
-	font-size: 18px;
-	margin: 0 2px;
-  }
-/* >>>>>>> master */
-
-    background: #F5F8FC;
-    padding: 80px 0;
-}
-
-.team-profile-img {
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-#team .member {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#team .member .pic {
-    margin-bottom: 15px;
-    overflow: hidden;
-    height: 260px;
-}
-
-#team .member .pic img {
-    max-width: 100%;
-}
-
-#team .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-}
-
-#team .member p {
-    padding: 10px 5px;
-}
-
-#team .member span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-}
-
-#team .member .social {
-    margin-top: 15px;
-}
-
-#team .member .social a {
-    color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-    color: #ff66c4;
-}
-
-#team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
