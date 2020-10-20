@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="icon" href="favicon.ico" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -42,11 +42,34 @@
         <li class="nav-item">
           <a class="nav-link" href="#team">Nosso time</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Contato
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://www.instagram.com/sysadminasbr/">
+              <i class="fa fa-instagram"></i> Instagram
+            </a>
+            <a class="dropdown-item" href="https://twitter.com/sysadmbr">
+              <i class="fa fa-twitter"></i> Twitter
+            </a>
+            <a class="dropdown-item" href="https://medium.com/sysadminas">
+              <i class="fa fa-medium"></i> Medium
+            </a>
+            <a class="dropdown-item" href="https://dev.to/sysadminas">
+              <i class="fab fa-dev"></i> DEV
+            </a>
+            <a class="dropdown-item" href="https://github.com/sysadminas">
+              <i class="fa fa-github"></i> Github
+            </a>
+            <a class="dropdown-item" href="mailto:contato@sysadminas.com.br">
+              <i class="fa fa-envelope"></i> E-mail
+            </a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Eventos</a>
+          <a class="nav-link" href="https://www.sympla.com.br/urlAlias/render?alias=sysadminas" target="_blank">Eventos</a>
         </li>
       </ul>
     </div>
@@ -78,10 +101,8 @@
             </p>
             <p class="text-justify">Nossas iniciativas são <strong>gratuitas</strong> e organizadas pela
               <strong>comunidade</strong>.</p>
-            <br>
           </div>
-          <div class="col-lg-6 content order-lg-1 order-1">
-
+          <div class="col-lg-6 content order-lg-1 order-1 mt-3">
             <h4 class="custom-bold">Nossa história</h4>
             <ul class="timeline">
               <li>
@@ -101,10 +122,11 @@
                   escrevendo artigos, um livro e fazendo lives no Instagram e no Youtube.</p>
               </li>
             </ul>
-
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-2" data-aos="fade-left" data-aos-delay="100"></div>
+          <div class="col-lg-6 background order-lg-2 order-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="./assets/img/site-img/about-img.jpg" alt="Oficina Elastic Zero to Hero" width="100%">
+          </div>
         </div>
 
       </div>
@@ -167,7 +189,7 @@
               <div class="carousel-item-content">
                 <div class="row justify-content-center">
                   <div class="col-lg-5 col-md-12 col-sm-12 align-self-center text-center">
-                    <img src="./assets/img/site-img/mes-virtualizacao.png" alt="Guia de Infra com o BiT"
+                    <img src="./assets/img/site-img/mes-virtualizacao.jpg" alt="Guia de Infra com o BiT"
                       class="initiatives-carousel-img">
                   </div>
                   <div class="col-lg-5 col-md-12 col-sm-12 text-dark align-self-center">
@@ -225,16 +247,14 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-12 col-sm-12 text-center">
             <div class="member">
               <div><img src="./assets/img/site-img/valesca.png" alt="Valesca Fortunato" class="team-profile-img"></div>
-              <h4>Valesca Fortunato</h4>
-              <p>Valesca trabalha com Infraestrutura de TI há mais de 18 anos, é
-                formada em Gestão de
-                Tecnologia e criou a comunidade SysAdminas em 2018, com o objetivo de fornecer uma rede
-                de apoio e orientação às mulheres que desejam trabalhar com Infraestrutura de TI no
-                Brasil, de modo a capacitá-las para entrar no mercado de trabalho, a fim de tornar a
-                área de infra mais diversa.</p>
+              <h4 tabindex="0" class="member-popover" data-toggle="popover" data-trigger="focus" data-container="body"
+                data-toggle="popover" data-placement="bottom"
+                data-content="Valesca trabalha com Infraestrutura de TI há mais de 18 anos, é formada em Gestão de Tecnologia e criou a comunidade SysAdminas em 2018, com o objetivo de fornecer uma rede de apoio e orientação às mulheres que desejam trabalhar com Infraestrutura de TI no Brasil, de modo a capacitá-las para entrar no mercado de trabalho, a fim de tornar a área de infra mais diversa.">
+                Valesca Fortunato
+              </h4>
               <div class="social">
                 <a href="https://www.linkedin.com/in/valescafortunato/" target="_blank"><i
                     class="fa fa-linkedin"></i></a>
@@ -243,15 +263,15 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-12 col-sm-12 text-center">
             <div class="member">
               <div><img src="./assets/img/site-img/bia.png" alt="Beatriz Oliveira" class="team-profile-img"></div>
-              <h4>Beatriz Oliveira</h4>
-              <p>Beatriz trabalha na área de Infraestrutura de TI, é Graduada em
-                Sistemas de Informação,
-                Pós Graduada em Gerenciamento de Projetos e possui um MBA em Arquitetura de Soluções.
-                Através do seu trabalho em comunidades, ela acredita que pode tornar a área de TI mais
-                diversa e inclusiva.</p>
+              <h4 tabindex="0" class="member-popover" data-toggle="popover" data-trigger="focus" data-container="body"
+                data-toggle="popover" data-placement="bottom" data-content="Beatriz trabalha na área de Infraestrutura de TI, é Graduada em
+              Sistemas de Informação,
+              Pós Graduada em Gerenciamento de Projetos e possui um MBA em Arquitetura de Soluções.
+              Através do seu trabalho em comunidades, ela acredita que pode tornar a área de TI mais
+              diversa e inclusiva.">Beatriz Oliveira</h4>
               <div class="social">
                 <a href="https://www.linkedin.com/in/thebeaoliveira" target="_blank"><i class="fa fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/thebeaoliveira" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -259,23 +279,39 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+          <div class="col-lg-3 col-md-12 col-sm-12 text-center">
             <div class="member">
               <div><img src="./assets/img/site-img/suane.jpg" alt="Suane Barbosa" class="team-profile-img">
               </div>
-              <h4>Suane Barbosa</h4>
-              <p>Suane trabalha com Infraestrutura de TI há mais de 15 anos,
-                possui formação em Gestão de
-                Tecnologia e é certificada com as principais tecnologias de mercado.
-                Ao longo de sua carreira se desenvolveu não somente como analista/especialista, mas
-                também como gestora de times e projetos. Por sempre ter sentido falta de
-                representatividade na área de TI, ela vê o trabalho das comunidades como uma
-                oportunidade de engajar, incluir e inspirar outras mulheres a seguirem carreira na área.
-              </p>
+              <h4 tabindex="0" class="member-popover" data-toggle="popover" data-trigger="focus" data-container="body"
+                data-toggle="popover" data-placement="bottom" data-content="Suane trabalha com Infraestrutura de TI há mais de 15 anos,
+              possui formação em Gestão de
+              Tecnologia e é certificada com as principais tecnologias de mercado.
+              Ao longo de sua carreira se desenvolveu não somente como analista/especialista, mas
+              também como gestora de times e projetos. Por sempre ter sentido falta de
+              representatividade na área de TI, ela vê o trabalho das comunidades como uma
+              oportunidade de engajar, incluir e inspirar outras mulheres a seguirem carreira na área.">Suane Barbosa
+              </h4>
               <div class="social">
                 <a href="https://www.linkedin.com/in/suane-barbosa/" target="_blank"><i class="fa fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/suaneofficial" target="_blank"><i class="fa fa-instagram"></i></a>
                 <a href="https://twitter.com/suane" target="_blank"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+            <div class="member">
+              <div><img src="./assets/img/site-img/vanessa.jpg" alt="Suane Barbosa" class="team-profile-img">
+              </div>
+              <h4 tabindex="0" class="member-popover" data-toggle="popover" data-trigger="focus" data-container="body"
+                data-toggle="popover" data-placement="bottom"
+                data-content="Vanessa Silva trabalha com tecnologia há 14 anos. Iniciou sua trajetória logo após concluir seu curso Técnico em Informática e durante grande parte da sua carreira trabalhou como Suporte a Usuários, mas recentemente ela aceitou o desafio de se aventurar no universo da Cloud e Automação. 
+              Ela acredita que a área de tecnologia precisa fortemente de mais diversidade, por isso contribui para que mais mulheres engejem na área.">Vanessa Silva
+              </h4>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/vanessasilvati" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mochileirademoto" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a><i class="fa fa-twitter"></i></a>
               </div>
             </div>
           </div>
@@ -287,10 +323,15 @@
   </main>
 
   <!-- Footer -->
-  <footer class="page-footer font-small bg-dark pt-4">
+  <footer id="contato" class="page-footer font-small bg-dark pt-4">
 
     <!-- Footer Elements -->
     <div class="container" style="font-size: 2rem;">
+      <div class="row mb-2">
+        <div class="col text-center text-light">
+          <p class="h5">Onde nos encontrar?</p>
+        </div>
+      </div>
 
       <!-- Social buttons -->
       <ul class="list-unstyled list-inline text-center share-group">
@@ -327,7 +368,7 @@
       </ul>
       <!-- Social buttons -->
       <div class="text-center" style="font-size: 1rem;">
-        <a href="https://github.com/sysadminas/docs/blob/master/codigo-de-conduta.md">Código de conduta</a>
+        <a href="https://github.com/sysadminas/docs/blob/master/codigo-de-conduta.md">Código de Conduta</a>
 
       </div>
     </div>
@@ -356,8 +397,15 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
   <script>
     $(document).ready(function () {
+      $('[data-toggle="popover"]').popover()
+      $('.popover-dismiss').popover({
+        trigger: 'focus'
+      })
+
       $('.my-carousel').slick({
         infinite: true,
         slidesToShow: 1,
@@ -367,6 +415,17 @@
         slidesToScroll: 1,
         arrows: false
       });
+
+      let config = {
+        headers: {
+          's_token': '78caef1fa9a7d3b9aaffd1af93aa4e2d469269d6aa77e0faec1957ab6dd07a24'
+        }
+      }
+
+      axios.get('https://api.sympla.com.br/public/v3/events', config)
+      .then(function (response) {
+        console.log(response);
+      })
     });
   </script>
 

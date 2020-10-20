@@ -177,11 +177,11 @@ a:hover {
     padding: 80px 0;
 }
 
-#about .about-container .background {
+/* #about .about-container .background {
     min-height: 300px;
     background: url(../img/site-img/about-img.jpg) center no-repeat;
     margin-bottom: 10px;
-}
+} */
 
 #about .about-container .content {
     background: #F5F8FC;
@@ -407,4 +407,20 @@ ul.timeline>li:before {
 #team .member .social i {
     font-size: 18px;
     margin: 0 2px;
+}
+
+.member-popover {
+    cursor: pointer;
+    outline: none;
+}
+
+.member-popover:hover {
+    color: #ff66c4;
+}
+
+/* Footer Section
+--------------------------------*/
+
+.page-footer .list-unstyled a:hover {
+    color: #ff9eda;
 }
