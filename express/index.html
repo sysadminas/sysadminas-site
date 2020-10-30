@@ -4,8 +4,37 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SysAdminas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta name="description"
+    content="A comunidade SysAdminas é um grupo inclusivo que fornece uma rede de suporte para as mulheres que desejam aprender conteúdos relacionados a infraestrutura no Brasil." />
+  <meta name="keywords"
+    content="sysadmin, system administrator, devops, linux, tecnologia, technology, infraestrutura, hardware, server, database, security, containers, infrastructure, code" />
+
+
+  <meta property="og:title" content="SysAdminas" />
+  <meta property="og:description" content="A comunidade SysAdminas é um grupo inclusivo que fornece uma rede de suporte para as mulheres que desejam aprender conteúdos relacionados a infraestrutura no Brasil." />
+  <meta property="og:url" content="https://sysadminas.com.br" />
+  <meta property="og:image" content="express/assets/img/icons/sysadminas-logo.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="sysadminas">
+  <meta name="twitter:creator" content="sysadminas">
+  <meta name="twitter:title" content="SysAdminas">
+  <meta name="twitter:description" content="A comunidade SysAdminas é um grupo inclusivo que fornece uma rede de suporte para as mulheres que desejam aprender conteúdos relacionados a infraestrutura no Brasil.">
+  <meta name="twitter:image" content="express/assets/img/icons/sysadminas-logo.jpg">
+
   <link rel="icon" href="favicon.ico" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XYW3W5MHQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2XYW3W5MHQ');
+  </script>
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,7 +46,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 
-  <title>SysAdminas</title>
+
 </head>
 
 <body>
@@ -69,7 +98,8 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.sympla.com.br/urlAlias/render?alias=sysadminas" target="_blank">Eventos</a>
+          <a class="nav-link" href="https://www.sympla.com.br/urlAlias/render?alias=sysadminas"
+            target="_blank">Eventos</a>
         </li>
       </ul>
     </div>
@@ -423,9 +453,9 @@
       }
 
       axios.get('https://api.sympla.com.br/public/v3/events', config)
-      .then(function (response) {
-        console.log(response);
-      })
+        .then(function (response) {
+          console.log(response);
+        })
     });
   </script>
 
