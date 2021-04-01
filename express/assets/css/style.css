@@ -295,7 +295,6 @@ ul.timeline>li:before {
 .carousel-item-content {
     height: auto;
     padding: 30px 0px 0px 0px;
-    ;
     outline: none;
 }
 
@@ -304,6 +303,10 @@ ul.timeline>li:before {
     display: inline-block !important;
 }
 
+.award-carousel-img {
+    width: 400px;
+    display: inline-block !important;
+}
 
 /* .slick-dots li.slick-active button::before { 
 	color: white !important;
@@ -319,6 +322,13 @@ ul.timeline>li:before {
         margin-right: auto;
         margin-bottom: 30px;
     }
+
+    .award-carousel-img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
     .carousel-item-content {
         padding: 30px 20px 0px 0px;
     }
