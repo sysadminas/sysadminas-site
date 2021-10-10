@@ -5,11 +5,11 @@ const router = express.Router();
 const path = require('path');
 const app = express();
 app.use(express.json());
-app.use(express.static("express"));
+app.use(express.static("app"));
 
 // default URL for website
 app.use('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/express/index.html'));
+  res.sendFile(path.join(__dirname + '/app/index.html'));
   //__dirname : It will resolve to your project folder.
 });
 
