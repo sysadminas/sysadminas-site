@@ -9,7 +9,8 @@ app.use(express.static("app"));
 
 // default URL for website
 app.use('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/app/index.html'));
+//  res.sendFile(path.join(__dirname + '/app/index.html'));
+    res.sendFile(path.join(__dirname + '/apps_nodejs/index.html'));
   //__dirname : It will resolve to your project folder.
 });
 
