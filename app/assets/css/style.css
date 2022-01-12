@@ -200,6 +200,20 @@ a:hover {
     padding: 80px 0;
 }
 
+.about-images-div {
+    
+}
+
+.empowering-img {
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    flex: 31%;
+}
+
 /* #about .about-container .background {
     min-height: 300px;
     background: url(../img/site-img/about-img.jpg) center no-repeat;
@@ -311,8 +325,37 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #initiatives {
-    background: #E9ECF0;
+    background: #fff;
     padding: 80px 0;
+}
+
+
+
+.initiatives-card-title {
+    font-size: 54px;
+    font-weight: 700;
+    color: #ff66c4;
+}
+
+.initiatives-card-subtitle {
+    font-size: 24px;
+}
+
+.initiatives-card-secondary {
+    padding: 10px;
+    font-size: 22px;
+    height: 80px;
+    background: #E9EBEF;
+    font-weight: 600;
+    position: relative;
+}
+
+.initiatives-card-secondary-icon {
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 52px;
 }
 
 .carousel-item-content {
@@ -392,12 +435,6 @@ ul.timeline>li:before {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 15px;
-}
-
-.empowering-img {
-    width: 170px;
-    height: 170px;
-    object-fit: cover;
 }
 
 #team .member {
