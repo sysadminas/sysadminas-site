@@ -25,6 +25,9 @@ a:hover {
     color: #ff66c4;
 }
 
+.responsive-flex {
+    flex-direction: row;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -80,6 +83,10 @@ a:hover {
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
+    }
+
+    .responsive-flex {
+        flex-direction: column;
     }
 }
 
@@ -329,7 +336,27 @@ ul.timeline>li:before {
     padding: 80px 0;
 }
 
+.initiatives-cards {
+    flex-direction: row;
+    margin-top: 70px;
+}
 
+.initiatives-achievements-cards {
+    flex-direction: row;
+}
+
+.initiatives-link {
+    color: #343a40;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+}
+
+.initiatives-link:hover {
+    color: #ff66c4;
+    outline: none;
+    text-decoration: none;
+}
 
 .initiatives-card-title {
     font-size: 54px;
@@ -348,6 +375,7 @@ ul.timeline>li:before {
     background: #E9EBEF;
     font-weight: 600;
     position: relative;
+    border-radius: 7px;
 }
 
 .initiatives-card-secondary-icon {
@@ -374,6 +402,22 @@ ul.timeline>li:before {
     display: inline-block !important;
 }
 
+.award-card {
+    border: 2px solid #ff66c4;
+    border-radius: 7px;
+    height: 300px;
+    padding: 15px;
+
+    /* border: 2px solid #fff;
+    border-radius: 7px;
+    height: 300px;
+    padding: 15px;
+    background: #fff; */
+}
+
+.award-container {
+    flex-direction: row;
+}
 /* .slick-dots li.slick-active button::before { 
 	color: white !important;
 }
@@ -398,6 +442,27 @@ ul.timeline>li:before {
     .carousel-item-content {
         padding: 30px 20px 0px 0px;
     }
+
+    .initiatives-card-secondary {
+        margin-bottom: 40px;
+        height: 100px;
+    }
+
+    .initiatives-cards {
+        flex-direction: column;
+    }
+
+    .initiatives-achievements-cards {
+        flex-direction: column;
+    }
+    
+    .award-container {
+        flex-direction: column;
+    }
+
+    .award-card {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -405,7 +470,8 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #award {
-    background: #F5F8FC;
+    background: #F5F8FC; 
+    /* #f0f2f3 */
     padding: 80px 0;
 }
 
