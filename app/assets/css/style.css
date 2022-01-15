@@ -37,6 +37,13 @@ a:hover {
     margin-right: 3rem;
 }
 
+.navbar-language-link {
+    background: #575658;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -519,6 +526,7 @@ ul.timeline>li:before {
 
 .team-profile-img {
     width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
@@ -542,10 +550,6 @@ ul.timeline>li:before {
     font-weight: 700;
     margin-bottom: 2px;
     font-size: 18px;
-}
-
-#team .member p {
-    padding: 10px 5px;
 }
 
 #team .member span {
