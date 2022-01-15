@@ -25,10 +25,32 @@ a:hover {
     color: #ff66c4;
 }
 
+.responsive-flex {
+    flex-direction: row;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.responsive-margin-right {
+    margin-right: 3rem;
+}
+
+.navbar-language-link {
+    background: #575658;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.elastic-award-image {
+    width: 350px;
+    border-radius: 20px;
+}
 
 #hero {
     width: 100%;
@@ -81,6 +103,18 @@ a:hover {
         font-size: 28px;
         line-height: 36px;
     }
+
+    .responsive-flex {
+        flex-direction: column;
+    }
+
+    .responsive-margin-right {
+        margin-right: 0;
+    }
+
+    .elastic-award-image {
+        width: 280px;
+    }
 }
 
 #hero h2 {
@@ -97,7 +131,7 @@ a:hover {
     }
 }
 
-#hero .btn-get-started {
+.btn-get-started {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -112,10 +146,33 @@ a:hover {
     color: #fff;
 }
 
-#hero .btn-get-started:hover {
+ .btn-get-started:hover {
     background: #ff66c4;
     border: 2px solid #ff66c4;
     text-decoration: none;
+    color: #fff;
+}
+
+.btn-get-started-pink {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #ff66c4;
+    color: #ff66c4;
+}
+
+ .btn-get-started-pink:hover {
+    background: #ff66c4;
+    border: 2px solid #ff66c4;
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -175,6 +232,20 @@ a:hover {
 #about {
     background: #F5F8FC;
     padding: 80px 0;
+}
+
+.about-images-div {
+    
+}
+
+.empowering-img {
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    flex: 31%;
 }
 
 /* #about .about-container .background {
@@ -288,8 +359,58 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #initiatives {
-    background: #E9ECF0;
+    background: #fff;
     padding: 80px 0;
+}
+
+.initiatives-cards {
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.initiatives-achievements-cards {
+    flex-direction: row;
+}
+
+.initiatives-link {
+    color: #343a40;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+}
+
+.initiatives-link:hover {
+    color: #ff66c4;
+    outline: none;
+    text-decoration: none;
+}
+
+.initiatives-card-title {
+    font-size: 54px;
+    font-weight: 700;
+    color: #ff66c4;
+}
+
+.initiatives-card-subtitle {
+    font-size: 24px;
+}
+
+.initiatives-card-secondary {
+    padding: 10px;
+    font-size: 22px;
+    height: 80px;
+    background: #E9EBEF;
+    font-weight: 600;
+    position: relative;
+    border-radius: 7px;
+}
+
+.initiatives-card-secondary-icon {
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 52px;
 }
 
 .carousel-item-content {
@@ -308,6 +429,22 @@ ul.timeline>li:before {
     display: inline-block !important;
 }
 
+.award-card {
+    border: 2px solid #ff66c4;
+    border-radius: 7px;
+    height: 315px;
+    padding: 15px;
+
+    /* border: 2px solid #fff;
+    border-radius: 7px;
+    height: 300px;
+    padding: 15px;
+    background: #fff; */
+}
+
+.award-container {
+    flex-direction: row;
+}
 /* .slick-dots li.slick-active button::before { 
 	color: white !important;
 }
@@ -332,6 +469,27 @@ ul.timeline>li:before {
     .carousel-item-content {
         padding: 30px 20px 0px 0px;
     }
+
+    .initiatives-card-secondary {
+        margin-bottom: 40px;
+        height: 100px;
+    }
+
+    .initiatives-cards {
+        flex-direction: column;
+    }
+
+    .initiatives-achievements-cards {
+        flex-direction: column;
+    }
+    
+    .award-container {
+        flex-direction: column;
+    }
+
+    .award-card {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -339,7 +497,8 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #award {
-    background: #F5F8FC;
+    background: #F5F8FC; 
+    /* #f0f2f3 */
     padding: 80px 0;
 }
 
@@ -367,6 +526,7 @@ ul.timeline>li:before {
 
 .team-profile-img {
     width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
@@ -390,10 +550,6 @@ ul.timeline>li:before {
     font-weight: 700;
     margin-bottom: 2px;
     font-size: 18px;
-}
-
-#team .member p {
-    padding: 10px 5px;
 }
 
 #team .member span {
