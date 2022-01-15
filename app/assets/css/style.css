@@ -29,9 +29,21 @@ a:hover {
     flex-direction: row;
 }
 
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.responsive-margin-right {
+    margin-right: 3rem;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.elastic-award-image {
+    width: 350px;
+    border-radius: 20px;
+}
 
 #hero {
     width: 100%;
@@ -87,6 +99,14 @@ a:hover {
 
     .responsive-flex {
         flex-direction: column;
+    }
+
+    .responsive-margin-right {
+        margin-right: 0;
+    }
+
+    .elastic-award-image {
+        width: 280px;
     }
 }
 
@@ -405,7 +425,7 @@ ul.timeline>li:before {
 .award-card {
     border: 2px solid #ff66c4;
     border-radius: 7px;
-    height: 300px;
+    height: 315px;
     padding: 15px;
 
     /* border: 2px solid #fff;
