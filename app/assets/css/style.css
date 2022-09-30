@@ -231,7 +231,7 @@ a:hover {
 --------------------------------*/
 
 #about {
-    background: #F5F8FC;
+    background: #fff;
     padding: 80px 0;
 }
 
@@ -254,10 +254,6 @@ a:hover {
     background: url(../img/site-img/about-img.jpg) center no-repeat;
     margin-bottom: 10px;
 } */
-
-#about .about-container .content {
-    background: #F5F8FC;
-}
 
 #about .about-container .title {
     font-weight: 700;
@@ -360,7 +356,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #initiatives {
-    background: #fff;
+    background: #E9EBEF;
     padding: 80px 0;
 }
 
@@ -414,7 +410,7 @@ ul.timeline>li:before {
 }
 
 .initiatives-card-background {
-    background: #E9EBEF;
+    background: #fff;
 }
 
 .initiatives-card-footer {
@@ -605,4 +601,22 @@ ul.timeline>li:before {
 
 .page-footer .list-unstyled a:hover {
     color: #ff9eda;
+}
+
+#partners{
+    background: #fff; 
+    /* #f0f2f3 */
+    padding: 80px 0;
+}
+/* Youtube Section
+--------------------------------*/
+
+#youtube {
+    background: #fff; 
+    /* #f0f2f3 */
+    padding: 80px 0;
+}
+
+.youtube-iframe {
+    margin: 10px;
 }
