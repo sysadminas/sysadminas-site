@@ -146,7 +146,7 @@ a:hover {
     color: #fff;
 }
 
- .btn-get-started:hover {
+.btn-get-started:hover {
     background: #ff66c4;
     border: 2px solid #ff66c4;
     text-decoration: none;
@@ -169,7 +169,7 @@ a:hover {
     color: #fff;
 }
 
- .btn-get-started-primary:hover {
+.btn-get-started-primary:hover {
     background: #ff66c4;
     border: 2px solid #ff66c4;
     color: #fff;
@@ -208,6 +208,7 @@ a:hover {
     from {
         width: 0
     }
+
     to {
         width: 100%
     }
@@ -217,10 +218,12 @@ a:hover {
 /* The typewriter cursor effect */
 
 @keyframes blink-caret {
+
     from,
     to {
         border-color: transparent
     }
+
     50% {
         border-color: #ff66c4;
     }
@@ -235,9 +238,7 @@ a:hover {
     padding: 80px 0;
 }
 
-.about-images-div {
-    
-}
+.about-images-div {}
 
 .empowering-img {
     width: 250px;
@@ -443,11 +444,7 @@ ul.timeline>li:before {
 }
 
 .award-card {
-    border: 1px solid #ff66c4;
     padding: 10px;
-    width: 350px;
-    min-width: 350px;
-    max-width: 350px;
     margin: 10px;
     height: 200px;
     min-height: 200px;
@@ -456,6 +453,7 @@ ul.timeline>li:before {
 .award-container {
     flex-direction: row;
 }
+
 /* .slick-dots li.slick-active button::before { 
 	color: white !important;
 }
@@ -493,7 +491,7 @@ ul.timeline>li:before {
     .initiatives-achievements-cards {
         flex-direction: column;
     }
-    
+
     .award-container {
         flex-direction: column;
     }
@@ -508,7 +506,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #award {
-    background: #F5F8FC; 
+    background: #F5F8FC;
     /* #f0f2f3 */
     padding: 80px 0;
 }
@@ -602,16 +600,17 @@ ul.timeline>li:before {
     color: #ff9eda;
 }
 
-#partners{
-    background: #fff; 
+#partners {
+    background: #fff;
     /* #f0f2f3 */
     padding: 80px 0;
 }
+
 /* Youtube Section
 --------------------------------*/
 
 #youtube {
-    background: #fff; 
+    background: #fff;
     /* #f0f2f3 */
     padding: 80px 0;
 }
