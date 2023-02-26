@@ -1,0 +1,112 @@
+/* Certification page
+--------------------------------*/
+
+.main-section {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    border-bottom: 1px solid white;
+    /* background-size: cover; */
+    /* position: relative; */
+}
+
+.main-section-subtitle {
+    font-size: 2rem;
+}
+
+.main-content-margin {
+    padding: 80px 0;
+}
+
+.left-container {
+    width: 300px;
+}
+
+.main-section-btn {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.certificate-img {
+    position: absolute;
+    width: 285px;
+    right: -62px;
+}
+
+.certificate-container {
+    background-color: #FFF5FE;
+}
+
+.certificate-content-f-size {
+    font-size: 1.2rem;
+}
+
+.partner-card-container {
+    margin-bottom: 5px;
+    width: 60%;
+    height: 160px;
+}
+
+.certificate-testimonies-container {
+    background-color: #E9EBEF;
+}
+
+.certificate-testimonies-card {
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.support-container {
+    background-color: #fff;
+}
+
+.support-call-action {
+    background: #000;
+    color: #fff;
+    width: 600px;
+    padding: 40px 20px 20px 20px;
+}
+
+.support-call-action-icon {
+    font-size: 85px;
+    position: absolute;
+    top: -65px;
+    color: #ff66c4;
+}
+
+.custom-shape-divider-bottom-1677361909 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1677361909 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1677361909 .shape-fill {
+    fill: #FFF5FE;
+}
+
+.ebook-img {
+    position: absolute;
+    width: 285px;
+    right: -142px;
+}
+
+.ebook-card-container {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1024px) {
+
+}
