@@ -62,16 +62,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#about">Sobre nós <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/#about">Sobre nós <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#initiatives">Iniciativas</a>
+          <a class="nav-link" href="/#initiatives">Iniciativas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#award">Reconhecimentos</a>
+          <a class="nav-link" href="/#award">Reconhecimentos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#team">Nosso time</a>
+          <a class="nav-link" href="/#team">Nosso time</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -103,6 +103,10 @@
           <a class="nav-link" href="https://www.sympla.com.br/urlAlias/render?alias=sysadminas"
             target="_blank">Eventos</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://forms.gle/t6NbNAdF1t9FKDgB7"
+            target="_blank">Call for Papers</a>
+        </li>
       </ul>
       <a class="navbar-text text-light navbar-language-link" href="/eng">
         ENG
@@ -112,22 +116,25 @@
 
   <!-- ======= Main Section ======= -->
   <section id="main-section h-100" class="main-section">
-    <div class="d-flex h-100 no-gutters" data-aos="zoom-in" data-aos-delay="100">
-      <div class="d-flex col-3">
-        <!-- <div class="col" style="background-color: #ff66c4;"></div> -->
-        <div class="col d-flex align-items-center" style="background-color: #ff66c4;">
-          <img class="ebook-img" src="./assets/img/site-img/digital-library.png"
+    <div class="d-flex h-100 w-100" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row no-gutters w-100 custom-d-block-mobile">
+        <div class="col main-content-resp-card-img custom-d-block">
+          <div class="d-flex justify-content-center">
+            <img class="ebook-icon" src="./assets/img/site-img/digital-library.png"
+            alt="Ícone representando uma certificação">
+          </div>
+        </div>
+        <div class="d-flex custom-d-none col-lg-3 col-md-12 col-sm-12 align-items-center" style="background-color: #ff66c4;">
+          <img class="ebook-icon" src="./assets/img/site-img/digital-library.png"
             alt="Ícone representando uma certificação">
         </div>
-      </div>
-      <div class="main-content-margin col-9">
-        <div class="container h-100">
-          <div class="d-flex justify-content-center align-items-center h-100 pl-5">
-            <div>
-              <h1 class="display-3 d-flex align-items-center font-weight-bold">Ebooks gratuitos</h1>
+        <div class="main-content-margin col-lg-9 col-md-12 col-sm-12">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="container custom-container-pl">
+              <h1 class="display-4 font-weight-bold custom-page-title-size">E-books gratuitos</h1>
               <p class="main-section-subtitle mt-3">Conteúdos desenvolvidos por mulheres da nossa comunidade sobre infraestrutura, computação em nuvem e carreira em tecnologia.</p>
               <div class="mt-5">
-                <a href="https://www.meetup.com/Sysadminas/?_locale=pt-BR" target="_blank"
+                <a href="#ebooks"
                   class="btn-get-started-primary main-section-btn">Leia mais</a>
               </div>
             </div>
@@ -137,49 +144,59 @@
     </div>
   </section><!-- End Main Section -->
 
-  <div class="custom-shape-divider-bottom-1677361909">
+  <!-- <div class="custom-d-none custom-shape-divider-bottom-1677361909">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path
         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
         class="shape-fill"></path>
     </svg>
-  </div>
+  </div> -->
 
-  <main id="main">
+  <main id="ebooks" style="background-color: #FFF5FE;" class="custom-pt-5">
 
-    <section id="certificate" class="main-content-margin certificate-container">
+    <section id="certificate" class="main-content-margin certificate-container mt-5">
       <div class="container" data-aos="fade-up">
-        <div class="d-flex flex-column mt-5">
+        <div class="d-flex flex-column">
           <div class="ebook-card-container align-self-center">
             <div class="d-flex h-100">
-              <div class="col-3 d-flex flex-column justify-content-center align-items-center">
-                <div class="d-flex justify-content-center w-100 h-100" style="background-color: #FFC5FF; padding: 100px 10px 10px 10px;">
-                  <img src="./assets/img/site-img/guia-da-computacao-em-nuvem.png" style="    width: 120px;
-                  position: absolute;
-                  top: -100px;
-              " alt="Logo VM Ware">
-                  <div class="d-flex flex-column text-center">
-                    <p class="h6 text-center align-self-center">Guia da Computação em Nuvem</p>
-                    <div style="font-size: .7rem;" class="font-weight-bold">BY: SYSADMINAS E BRAZILIANS IN TECH</div>
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                  <div class="d-flex justify-content-center w-100 h-100 ebook-card-content">
+                    <img src="./assets/img/site-img/guia-da-computacao-em-nuvem.png" class="ebook-img" alt="Logo VM Ware">
+                    <div class="d-flex flex-column text-center">
+                      <p class="h4 text-center align-self-center">Guia da Computação em Nuvem</p>
+                      <div style="font-size: .7rem;" class="font-weight-bold">BY: SYSADMINAS E BRAZILIANS IN TECH</div>
+                    </div>
+                    <a href="https://leanpub.com/guia-da-computacao-em-nuvem/" target="_blank"
+                          class="btn-get-started-primary ebook-card-action-btn">Leia agora</a>
                   </div>
                 </div>
-              </div>
-              <div class="col-9 d-flex flex-column justify-content-center">
-                <p class="h6">Publicado em abril de 2022 na <a href="https://openlibrary.org/books/OL37820935M/Guia_da_Computação_em_Nuvem" target="_blank">Open Library</a>, no <a href="https://medium.com/sysadminas/guia-da-computação-em-nuvem-conceito-prática-capacitação-706a8b7e555"  target="_blank">Medium</a> e no <a href="https://leanpub.com/guia-da-computacao-em-nuvem/" target="_blank">LeanPub</a>.</p>
-                <div class="text-justify">Neste ebook gratuito, <a href="https://www.linkedin.com/in/thebeaoliveira/" target="_blank">Beatriz Oliveira</a> e <a href="https://www.linkedin.com/in/mari/" target="_blank">Mariana Carvalho</a> abordam conceitos fundamentais e amplamente conhecidos no universo da computação em nuvem, incluindo os modelos de implantação e os principais cloud providers, além disso, as autoras também focam em temáticas relacionadas a cloud adoption, como as estratégias de migração para a nuvem, o CCoE, e o FinOps, por exemplo. </div>
-                <div class="text-justify">O principal objetivo deste trabalho é apoiar pessoas que possuem interesse em iniciar seus estudos no universo da cloud computing em português.</div>
+                <div class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center custom-ebook-content-mt">
+                  <p class="h6">Publicado em abril de 2022 na <a href="https://openlibrary.org/books/OL37820935M/Guia_da_Computação_em_Nuvem" target="_blank">Open Library</a>, no <a href="https://medium.com/sysadminas/guia-da-computação-em-nuvem-conceito-prática-capacitação-706a8b7e555"  target="_blank">Medium</a> e no <a href="https://leanpub.com/guia-da-computacao-em-nuvem/" target="_blank">LeanPub</a>.</p>
+                  <div class="text-justify">Neste ebook gratuito, <a href="https://www.linkedin.com/in/thebeaoliveira/" target="_blank">Beatriz Oliveira</a> e <a href="https://www.linkedin.com/in/mari/" target="_blank">Mariana Carvalho</a> abordam conceitos fundamentais e amplamente conhecidos no universo da computação em nuvem, incluindo os modelos de implantação e os principais cloud providers, além disso, as autoras também focam em temáticas relacionadas a cloud adoption, como as estratégias de migração para a nuvem, o CCoE, e o FinOps, por exemplo. </div>
+                  <div class="text-justify">O principal objetivo deste trabalho é apoiar pessoas que possuem interesse em iniciar seus estudos no universo da cloud computing em português.</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="ebook-card-container align-self-center">
+          <div class="ebook-card-container align-self-center custom-ebook-card-mt">
             <div class="d-flex h-100">
-              <div class="col-9 d-flex flex-column justify-content-center">
-                <p class="h6">Publicado em agosto de 2020 na <a href="https://openlibrary.org/books/OL28653878M/Guia_de_Infraestrutura_de_TI" target="_blank">Open Library</a>, no <a href="https://medium.com/sysadminas/guia-de-infraestrutura-de-ti-30543bfe9922"  target="_blank">Medium</a> e no <a href="https://leanpub.com/guia-de-infraestrutura-de-ti/" target="_blank">LeanPub</a>.</p>
-                <div class="text-justify">Neste ebook gratuito, <a href="https://www.linkedin.com/in/thebeaoliveira/" target="_blank">Beatriz Oliveira</a> e <a href="https://www.linkedin.com/in/mari/" target="_blank">Mariana Carvalho</a> discorrem sobre diversos tópicos relacionados a Infraestrutura de TI, incluindo Data Center, Sistemas Operacionais, Hardware, Redes, Virtualização, Containers, Banco de Dados, Cloud, Observabilidade, DevOps, SRE, Segurança e Infrastructure as Code. Em complemento a isso, foram abordadas várias sugestões de cursos, livros e certificações, com o objetivo de apoiar pessoas que desejam conhecer mais sobre esses temas em português, ou até mesmo iniciar uma carreira nesse segmento.</div>
-              </div>
-              <div class="col-3 d-flex flex-column justify-content-center align-items-center">
-                <img src="./assets/img/site-img/guia-infra.jpg" style="width: 150px;" alt="Logo
-                  Elastic">
+              <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center custom-order-2 custom-ebook-content-mt">
+                  <p class="h6">Publicado em agosto de 2020 na <a href="https://openlibrary.org/books/OL28653878M/Guia_de_Infraestrutura_de_TI" target="_blank">Open Library</a>, no <a href="https://medium.com/sysadminas/guia-de-infraestrutura-de-ti-30543bfe9922"  target="_blank">Medium</a> e no <a href="https://leanpub.com/guia-de-infraestrutura-de-ti/" target="_blank">LeanPub</a>.</p>
+                  <div class="text-justify">Neste ebook gratuito, <a href="https://www.linkedin.com/in/thebeaoliveira/" target="_blank">Beatriz Oliveira</a> e <a href="https://www.linkedin.com/in/mari/" target="_blank">Mariana Carvalho</a> discorrem sobre diversos tópicos relacionados a Infraestrutura de TI, incluindo Data Center, Sistemas Operacionais, Hardware, Redes, Virtualização, Containers, Banco de Dados, Cloud, Observabilidade, DevOps, SRE, Segurança e Infrastructure as Code. Em complemento a isso, foram abordadas várias sugestões de cursos, livros e certificações, com o objetivo de apoiar pessoas que desejam conhecer mais sobre esses temas em português, ou até mesmo iniciar uma carreira nesse segmento.</div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                  <div class="d-flex justify-content-center w-100 h-100 ebook-card-content">
+                    <img src="./assets/img/site-img/guia-infra.jpg" class="ebook-img" style="width: 145px;" alt="Logo VM Ware">
+                    <div class="d-flex flex-column text-center">
+                      <p class="h4 text-center align-self-center">Guia de Infraestrutura de TI</p>
+                      <div style="font-size: .7rem;" class="font-weight-bold">BY: SYSADMINAS E BRAZILIANS IN TECH</div>
+                    </div>
+                    <a href="https://openlibrary.org/books/OL28653878M/Guia_de_Infraestrutura_de_TI" target="_blank"
+                          class="btn-get-started-primary ebook-card-action-btn">Leia agora</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -191,101 +208,39 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col text-center">
-            <h2 class="title mb-4">O que as participantes estão dizendo</h2>
+            <h2 class="title mb-4">O que as pessoas dizem nas redes sociais sobre os ebooks</h2>
           </div>
         </div>
         <div class="row mt-3">
           <div class="col">
             <div class="my-carousel">
               <div>
-                <div class="slide-wrap certificate-testimonies-card align-self-center mr-3">
+                <div class="slide-wrap certificate-testimonies-card align-self-center mr-5">
                   <div class="d-flex">
                     <div class="d-flex flex-column justify-content-center">
-                      <p class="h6 font-weight-bold">Alvaro Viquez, Program Manager na VMware IT Academy</p>
-                      <p class="text-justify">A parceria entre SysAdminas e VMware Brazil é inestimável. Estamos
-                        trabalhando juntos há 2 anos, impactando diretamente as mulheres do país com treinamentos
-                        especializados nas tecnologias VMware que são oferecidos 100% gratuitamente e sei que ainda
-                        estamos só no começo!</p>
+                      <p class="h6 font-weight-bold">André Deo publicou no <a href="https://twitter.com/deoandre/status/1297979120811483137" target="_blank">Twitter</a></p>
+                      <p class="text-justify">"Gente que orgulho!! Para alguém como eu, com alguns anos de estrada, é verdadeiramente emocionante ver duas mulheres escrevendo um livro sobre infraestrutura <3"
+                      </p>
                     </div>
                   </div>
+                  <img src="./assets/img/site-img/right-quotation-sign.png" alt="Oficina Elastic Zero to Hero"
+                    class="quotation-icon-index quotation-certificate-icon">
                 </div>
               </div>
 
               <div>
-                <div class="slide-wrap certificate-testimonies-card align-self-center mr-3">
+                <div class="slide-wrap certificate-testimonies-card align-self-center mr-5">
                   <div class="d-flex">
                     <div class="d-flex flex-column justify-content-center">
-                      <p class="h6 font-weight-bold">Cinthia Calabreze, Analista de Infraestrutura na Stone</p>
-                      <p class="text-justify">Quando eu decidi fazer a transição de carreira para a área de tecnologia,
-                        a SysAdminas foi essencial. Consegui fazer um curso de virtualização e me certificar. Sem o
-                        apoio da comunidade, de ver tantas mulheres brilhantes que atuam na área, o meu percurso seria
-                        muito diferente. Gratidão SysAdminas!</p>
+                      <p class="h6 font-weight-bold">Ilenice Trojahn publicou no <a href="https://www.linkedin.com/posts/ilenicetrojahn_guia-de-infraestrutura-de-ti-activity-6913955447309762560-DEud/?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">Linkedin</a></p>
+                      <p class="text-justify">"Material de ouro desenvolvido, organizado e disponibilizado pelas sysadminas para desembaralhar o mundo gigante de infraestrutura de TI, bacana pra entender tudo o que ele engloba e sugestões de formações, certificações e leituras."</p>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div>
-                <div class="slide-wrap certificate-testimonies-card align-self-center mr-3">
-                  <div class="d-flex">
-                    <div class="d-flex flex-column justify-content-center">
-                      <p class="h6 font-weight-bold">Mickelli Cunha, Estagiária de Engenharia de Sistemas na Cisco</p>
-                      <p class="text-justify">Conheci a SysAdminas em 2021, na época estava em transição de carreira e
-                        elas estavam oferecendo um curso da VMware. Consegui a vaga e fiz um mês de curso, onde conheci
-                        pessoas incríveis, aprendi sobre virtualização e ganhei um voucher de 100% de desconto para a
-                        certificação. Após o curso eu estudei todo o conteúdo novamente e em fevereiro de 2022 consegui
-                        a minha primeira certificação na área de tecnologia.
-                        Isso me motivou muito e me incentivou a buscar novos estudos. Eu só tenho a agradecer a essa
-                        comunidade incrível!</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="slide-wrap certificate-testimonies-card align-self-center mr-3">
-                  <div class="d-flex">
-                    <div class="d-flex flex-column justify-content-center">
-                      <p class="h6 font-weight-bold">Renata Azevedo, DevOps Engineer na Vitat</p>
-                      <p class="text-justify">Participei de alguns projetos da SysAdminas, ajudando a organizar eventos,
-                        publicando no blog e até fazendo workshops e vi de perto o quanto o trabalho delas é importante
-                        e impacta a vida de muitas pessoas.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div class="slide-wrap certificate-testimonies-card align-self-center mr-3">
-                  <div class="d-flex">
-                    <div class="d-flex flex-column justify-content-center">
-                      <p class="h6 font-weight-bold">Ully Sampaio, Community Programs Specialist na Elastic</p>
-                      <p class="text-justify">Na Elastic nós valorizamos muito e levamos muito a sério a questão da
-                        diversidade e inclusão na indústria de tecnologia. Porém, é quase impossível conseguir ajudar
-                        todas as causas, por isso é primordial estabelecer uma parceria com iniciativas sérias como a
-                        Comunidade SysAdminas. Ver o crescimento de vocês e saber o impacto positivo que vocês causam na
-                        comunidade é incrível e nos dá muito orgulho dessa parceria. Vocês vão longe!</p>
-                    </div>
-                  </div>
+                  <img src="./assets/img/site-img/right-quotation-sign.png" alt="Oficina Elastic Zero to Hero"
+                    class="quotation-icon-index quotation-certificate-icon">
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="apoiar" class="main-content-margin support-container">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center d-flex justify-content-center">
-            <div class="d-flex justify-content-center support-call-action">
-            <div class="support-call-action-icon"><i class="fa-solid fa-heart"></i></div>
-              <h1 class="font-weight-bold mb-4">Sua empresa se interessou pela iniciativa e quer apoiar?</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p class="text-justify mt-3 lead text-center font-weight-normal">Entre em contato conosco através do email <a
-              href="mailto:contato.comunidade.br@gmail.com?subject=Gostaria de apoiar a comunidade SysAdminas" target="_blank">contato.comunidade.br@gmail.com</a>.
           </div>
         </div>
       </div>
@@ -348,6 +303,10 @@
       <!-- <div class="text-center" style="font-size: 1rem;">
         <a href="https://github.com/sysadminas/docs/blob/master/codigo-de-conduta.md">Código de Conduta</a>
       </div> -->
+      <div class="text-center">
+        <a class="code-of-conduct-link" href="https://github.com/sysadminas/docs/blob/master/codigo-de-conduta-pt-br.md" target="_blank">Código de Conduta</a>
+        <a class="code-of-conduct-link" href="https://drive.google.com/file/d/1hSLEY29dS4aCsqKUlTij9GWIwqnc7B9U/view?usp=drivesdk" target="_blank">Relatório de Impacto</a>
+      </div>
     </div>
     <!-- Footer Elements -->
 
@@ -391,6 +350,18 @@
         dots: true,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
       })
         .on("setPosition", function () {
           resizeSlider();

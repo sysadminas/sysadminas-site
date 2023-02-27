@@ -618,3 +618,65 @@ ul.timeline>li:before {
 .youtube-iframe {
     margin: 30px;
 }
+
+
+.testimonies-container {
+    background: #fff;
+    /* #f0f2f3 */
+    padding: 80px 0;
+}
+
+.quotation-icon-index {
+    width: 70px;
+    opacity: 0.5;
+}
+
+.slick-slide {
+    outline: none !important;
+}
+
+.custom-mr-2 {
+    margin-right: 0.5rem !important;
+}
+
+.code-of-conduct-link {
+    background: #fff;
+    padding: 5px;
+    font-size: 1.0rem;
+    color: #000;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.code-of-conduct-link:hover {
+    color: #ff66c4;
+    text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+    .initiatives-card-secondary {
+        margin-bottom: 25px;
+        width: 100% !important;
+        height: auto;
+    }
+
+    .custom-flex-column {
+        flex-direction: column !important;
+    }
+
+    .custom-mr-2 {
+        margin-right: -15px !important;
+    }
+
+    .initiatives-card-footer {
+        position: inherit !important;
+        bottom: inherit !important;
+        top: inherit !important;
+    }
+
+    .youtube-iframe {
+        height: auto !important;
+        width: fit-content !important;
+    }
+}
