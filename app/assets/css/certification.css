@@ -38,6 +38,10 @@
 }
 
 .certificate-container {
+    background-color: #fff;
+}
+
+.ebooks-container {
     background-color: #FFF5FE;
 }
 
@@ -45,10 +49,30 @@
     font-size: 1.2rem;
 }
 
+.partners-card-main {
+    display: flex;
+    flex-direction: row;
+}
+
 .partner-card-container {
-    margin-bottom: 5px;
-    width: 60%;
-    height: 160px;
+    width: 280px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.partner-card-content {
+    height: 100%;
+    background: #E9EBEF;
+}
+
+.partner-card-title {
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.partner-card-img {
+    width: 200px;
 }
 
 .certificate-testimonies-container {
@@ -236,5 +260,11 @@
 
     .custom-container-pl {
         padding-left: 15px;
+    }
+
+    .partners-card-main {
+        display: flex;
+        flex-direction: column !important;
+
     }
 }
