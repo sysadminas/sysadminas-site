@@ -48,7 +48,7 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .elastic-award-image {
-    width: 350px;
+    width: 170px;
     border-radius: 20px;
 }
 
@@ -146,14 +146,14 @@ a:hover {
     color: #fff;
 }
 
- .btn-get-started:hover {
+.btn-get-started:hover {
     background: #ff66c4;
     border: 2px solid #ff66c4;
     text-decoration: none;
     color: #fff;
 }
 
-.btn-get-started-pink {
+.btn-get-started-primary {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -164,15 +164,16 @@ a:hover {
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #ff66c4;
-    color: #ff66c4;
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
 }
 
- .btn-get-started-pink:hover {
+.btn-get-started-primary:hover {
     background: #ff66c4;
     border: 2px solid #ff66c4;
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 
@@ -207,6 +208,7 @@ a:hover {
     from {
         width: 0
     }
+
     to {
         width: 100%
     }
@@ -216,10 +218,12 @@ a:hover {
 /* The typewriter cursor effect */
 
 @keyframes blink-caret {
+
     from,
     to {
         border-color: transparent
     }
+
     50% {
         border-color: #ff66c4;
     }
@@ -230,13 +234,11 @@ a:hover {
 --------------------------------*/
 
 #about {
-    background: #F5F8FC;
+    background: #fff;
     padding: 80px 0;
 }
 
-.about-images-div {
-    
-}
+.about-images-div {}
 
 .empowering-img {
     width: 250px;
@@ -253,10 +255,6 @@ a:hover {
     background: url(../img/site-img/about-img.jpg) center no-repeat;
     margin-bottom: 10px;
 } */
-
-#about .about-container .content {
-    background: #F5F8FC;
-}
 
 #about .about-container .title {
     font-weight: 700;
@@ -359,7 +357,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #initiatives {
-    background: #fff;
+    background: #E9EBEF;
     padding: 80px 0;
 }
 
@@ -373,8 +371,9 @@ ul.timeline>li:before {
 }
 
 .initiatives-link {
-    color: #343a40;
-    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
     outline: none;
     text-decoration: none;
 }
@@ -384,6 +383,15 @@ ul.timeline>li:before {
     outline: none;
     text-decoration: none;
 }
+
+.initiatives-description {
+    font-size: 18px;
+}
+
+.initiatives-subtitle {
+    font-size: 22px;
+}
+
 
 .initiatives-card-title {
     font-size: 54px;
@@ -396,20 +404,26 @@ ul.timeline>li:before {
 }
 
 .initiatives-card-secondary {
-    padding: 10px;
-    font-size: 22px;
-    height: 80px;
-    background: #E9EBEF;
-    font-weight: 600;
-    position: relative;
-    border-radius: 7px;
+    /* padding: 10px; */
+    margin-bottom: 25px;
+    width: 49%;
+    height: 180px;
+    /* margin: 10px; */
+}
+
+.initiatives-card-background {
+    background: #fff;
+}
+
+.initiatives-card-footer {
+    position: absolute;
+    bottom: 0;
+    top: 140px;
 }
 
 .initiatives-card-secondary-icon {
-    position: absolute;
-    top: -41px;
-    left: 50%;
-    transform: translate(-50%);
+    background-color: #ff66c4;
+    color: #fff;
     font-size: 52px;
 }
 
@@ -430,21 +444,16 @@ ul.timeline>li:before {
 }
 
 .award-card {
-    border: 2px solid #ff66c4;
-    border-radius: 7px;
-    height: 315px;
-    padding: 15px;
-
-    /* border: 2px solid #fff;
-    border-radius: 7px;
-    height: 300px;
-    padding: 15px;
-    background: #fff; */
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    min-height: 200px;
 }
 
 .award-container {
     flex-direction: row;
 }
+
 /* .slick-dots li.slick-active button::before { 
 	color: white !important;
 }
@@ -482,7 +491,7 @@ ul.timeline>li:before {
     .initiatives-achievements-cards {
         flex-direction: column;
     }
-    
+
     .award-container {
         flex-direction: column;
     }
@@ -497,7 +506,7 @@ ul.timeline>li:before {
 --------------------------------*/
 
 #award {
-    background: #F5F8FC; 
+    background: #F5F8FC;
     /* #f0f2f3 */
     padding: 80px 0;
 }
@@ -589,4 +598,85 @@ ul.timeline>li:before {
 
 .page-footer .list-unstyled a:hover {
     color: #ff9eda;
+}
+
+#partners {
+    background: #fff;
+    /* #f0f2f3 */
+    padding: 80px 0;
+}
+
+/* Youtube Section
+--------------------------------*/
+
+#youtube {
+    background: #fff;
+    /* #f0f2f3 */
+    padding: 80px 0;
+}
+
+.youtube-iframe {
+    margin: 30px;
+}
+
+
+.testimonies-container {
+    background: #fff;
+    /* #f0f2f3 */
+    padding: 80px 0;
+}
+
+.quotation-icon-index {
+    width: 70px;
+    opacity: 0.5;
+}
+
+.slick-slide {
+    outline: none !important;
+}
+
+.custom-mr-2 {
+    margin-right: 0.5rem !important;
+}
+
+.code-of-conduct-link {
+    background: #fff;
+    padding: 5px;
+    font-size: 1.0rem;
+    color: #000;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.code-of-conduct-link:hover {
+    color: #ff66c4;
+    text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+    .initiatives-card-secondary {
+        margin-bottom: 25px;
+        width: 100% !important;
+        height: auto;
+    }
+
+    .custom-flex-column {
+        flex-direction: column !important;
+    }
+
+    .custom-mr-2 {
+        margin-right: -15px !important;
+    }
+
+    .initiatives-card-footer {
+        position: inherit !important;
+        bottom: inherit !important;
+        top: inherit !important;
+    }
+
+    .youtube-iframe {
+        height: auto !important;
+        width: fit-content !important;
+    }
 }
