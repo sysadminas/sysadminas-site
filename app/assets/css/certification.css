@@ -52,6 +52,7 @@
 .partners-card-main {
     display: flex;
     flex-direction: row;
+    gap: 2rem;
 }
 
 .partner-card-container {

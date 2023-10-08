@@ -245,7 +245,7 @@ a:hover {
     height: 250px;
     min-width: 250px;
     min-height: 250px;
-    object-fit: cover;
+    object-fit: fill;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     flex: 31%;
 }
